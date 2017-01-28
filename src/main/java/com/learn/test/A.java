@@ -6,6 +6,7 @@ public class A {
 	private static A a = new A();
 
 	private A() {
+		a
 		System.out.println("Private Constroctor");
 	}
 
