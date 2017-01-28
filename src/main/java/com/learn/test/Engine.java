@@ -1,8 +1,6 @@
 package com.learn.test;
 
-import org.springframework.stereotype.Component;
 
-@Component
 public class Engine {
 
 	private String model;
