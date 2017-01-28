@@ -1,0 +1,19 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context.xsd"
+     
+    default-init-method="init"
+    default-destroy-method="destory">
+
+	<bean id="dao" class="com.learn.test.MyDao">
+		<property name="url" value="myssqlUrl" />
+		<property name="userName" value="admin" />
+		<property name="password" value="admin@123" />
+	</bean>
+	
+</beans>
+
